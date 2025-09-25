@@ -1,0 +1,21 @@
+# Dependencies & build
+node_modules/
+.next/
+out/
+dist/
+.cache/
+.swc/
+.turbo/
+coverage/
+
+# Env & local
+.env
+.env.*
+.vercel/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { @apply bg-white text-ink-900 antialiased; }
+
+/* Warm aura with clay/sand */
+.aura { background-image: radial-gradient(60% 45% at 5% 0%, rgba(233,216,201,.35), transparent 60%), radial-gradient(50% 40% at 100% 0%, rgba(20,94,116,.12), transparent 60%); }
